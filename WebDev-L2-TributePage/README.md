@@ -1,5 +1,10 @@
 # 🌟 Tribute Page – Dr. A. P. J. Abdul Kalam
-
+### Hero Section
+![Hero](images/hero.png)
+### Biography
+![Biography](images/biography.png)
+### Gallery
+![Gallery](images/gallery.png)
 A responsive tribute webpage dedicated to **Dr. A. P. J. Abdul Kalam**, developed as **Task 1** of the **Oasis Infobyte Web Development Internship**.
 
 ## 📖 About the Project
