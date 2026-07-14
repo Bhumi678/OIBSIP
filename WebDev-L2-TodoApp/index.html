@@ -1,0 +1,96 @@
+<!DOCTYPE >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    
+     <div class="container">
+     <header>
+          <h1>📝 My Todo</h1>
+          <p>"Small progress every day adds up."</p>
+    </header>
+    
+
+    <main>
+        <!-- Sidebar-->
+            <aside class="sidebar">
+
+       <ul>
+
+       <li class="filter" data-category="Today">📅 Today</li>
+       <li class="filter" data-category="Personal">👤 Personal</li>
+       <li class="filter" data-category="Study">📚 Study</li>
+       <li class="filter" data-category="Pending">⏳ Pending</li>
+       <li class="filter" data-category="Upcoming">🚀 Upcoming</li>
+       <li class="filter" data-category="All">📋 All Tasks</li>
+      </ul>
+
+    </aside>
+         <!-- Tasks Section -->
+
+     <section class="Today's Tasks">
+     <div class="input-box">
+
+         <input
+         type="text"
+         id="taskInput"
+         placeholder="Add a new task...">
+    
+         <select id="category">
+    <option value="Today">📅 Today</option>
+    <option value="Personal">👤 Personal</option>
+    <option value="Study">📚 Study</option>
+    <option value="Pending">⏳ Pending</option>
+    <option value="Upcoming">🚀 Upcoming</option>
+</select>
+     <button id="addTaskButton">
+
+         Add
+
+     </button>
+
+     </div>
+
+          <ul id="taskList">
+
+           </ul>
+           <p id="emptyMessage">Small progress every day adds up.
+
+        </p>
+                   <p id="currentDate"></p>
+     </section>
+
+     <!-- Stats Section --> 
+
+     <aside class="stats">
+
+     <h2>Progress</h2>
+      <div class="progress-bar">
+        <div id="progressFill"></div>
+    </div>
+     <p id="progressPercent">0%</p>
+
+     <p>Completed : <span id="completedCount">0</span></p>
+
+     <p>Pending : <span id="pendingCount">0</span></p>
+
+     </aside> 
+
+ </main>
+
+ <footer>
+
+    Built with ❤️ by Bhumi Singh
+
+ </footer>
+</div>
+
+<script src="script.js"></script>
+</body>    
+</html>

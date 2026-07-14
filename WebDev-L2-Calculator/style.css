@@ -101,3 +101,8 @@ button:active{
 button:hover{
     transform:scale(1.05);
 }
+.completed{
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+}
