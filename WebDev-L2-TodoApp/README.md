@@ -38,12 +38,11 @@ A modern and responsive Todo App built using **HTML, CSS, and JavaScript**. This
 ![](CLICK1.png)
 Home
 ### Adding Tasks
-
-![Tasks]!(click.png)
+![Tasks](click.png)
 
 ### Completed Task
 
-![Completed](screenshots/completed.png)
+![Completed](final.png)
 
 ---
 
